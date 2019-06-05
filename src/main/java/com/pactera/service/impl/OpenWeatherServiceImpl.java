@@ -35,7 +35,7 @@ public class OpenWeatherServiceImpl implements WeatherService<OpenWeatherInput>{
             weather.setUpdatedTime(getFormattedDate(openWeather.getDt()));
             return weather;
         }catch(Exception e){
-            weather.setErrorMessage("Data not available. Please try after sometime.");
+            e.printStackTrace();
             return weather;
         }
     }
