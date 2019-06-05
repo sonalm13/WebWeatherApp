@@ -1,0 +1,17 @@
+com\pactera\object\OpenWeatherAPI.class
+com\pactera\dao\WeatherDao.class
+com\pactera\controller\WeatherController.class
+com\pactera\dao\impl\OpenWeatherDaoImpl.class
+com\pactera\service\impl\OpenWeatherServiceImpl.class
+com\pactera\appInitializer\AppWebConfig.class
+com\pactera\model\Weather.class
+com\pactera\object\CityService.class
+com\pactera\appInitializer\ApplicationInitializer.class
+com\pactera\model\WeatherInput.class
+com\pactera\model\impl\OpenWeatherInput.class
+com\pactera\model\impl\OpenWeatherWind.class
+com\pactera\model\impl\OpenWeather.class
+com\pactera\model\impl\OpenWeatherWeather.class
+com\pactera\appInitializer\AppConfig.class
+com\pactera\model\impl\OpenWeatherMain.class
+com\pactera\service\WeatherService.class
