@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArraySet;
 
-@PropertySource(value = { "classpath:cities.properties" })
+@PropertySource(value = { "classpath:city.properties" })
 public class CityService {
 
     private Environment env;
